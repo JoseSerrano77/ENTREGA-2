@@ -1,0 +1,176 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h1{
+    font-size: 45px;
+    color:rgb(233, 229, 13)/*hsl(20, 37%, 97%);
+    rgb(245, 241, 12)
+    /*transition: all 300ms;*/   
+}
+
+/*h1:hover{
+    transform: scale(1.15);
+}*/
+
+h2{
+    font-size: 25px;
+    color: hsl(20, 37%, 97%);
+    transition: all 300ms;
+    
+}
+
+.titulo{
+    background-color:black;
+    width: 100%;
+    margin-top: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 1px rgb(233, 229, 13) solid;
+    position:relative;
+   
+   
+    
+}
+.nav{
+    width: 35%;
+    background-color:black;
+    position: relative;
+    bottom: 30px;
+    left: 60px;
+   
+    margin-left: 1400px;
+    
+    
+    
+
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 10px;
+    color:white ;
+    
+    
+   
+   
+}
+nav ul li{
+    display: inline-block;
+    
+  
+    /*position:fixed;*/
+    
+   
+    
+}
+
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 300ms;
+}
+
+
+
+#alinear-centro{
+    
+    font-size: 35px;
+
+    text-align: center;
+   
+    top: 0;
+
+}
+#alinear-izquierda{
+    
+    font-size: 35px;
+
+    text-align: left;
+    top: 0;
+
+}
+
+#discografia{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 60%;
+    margin: 15%;
+    grid-gap: 60px;
+    margin-left :auto; 
+    margin-right:auto;
+ 
+}
+
+#discografia img{
+    width: 100%;
+    transition: all 300ms;
+   /* position:static; */
+   
+    position: relative;
+    bottom: 150px;
+    
+   
+}
+
+#discografia img:hover{
+    transform: scale(1.15);
+}
+
+#fotografia2{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 60%;
+    grid-gap: 30px;
+    margin-left :auto; 
+    margin-right:auto;
+    
+}
+
+#fotografia2 img{
+    width: 100%;
+    transition: all 300ms;
+    position: relative;
+    bottom: 20px;
+    
+   
+}
+
+#fotografia2 img:hover{
+    transform: scale(1.15);
+    
+
+}
+
+#logo{
+    width: 30%;
+    height:30%
+}
+
+#Logo_img:hover{
+    transform: scale(1.10);
+    transition: all 300ms;
+}
+.footer{
+    background-color:rgb(19, 16, 16);
+    width: 100%;
+    margin-top: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 5px rgb(92, 91, 17) solid;
+    position:relative;
+    bottom: 0px;
+    top:10px;
+    color: aliceblue;
+}
+
+
